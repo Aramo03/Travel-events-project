@@ -1,0 +1,17 @@
+/* Design tokens: colors, fonts, spacing, radii */
+:root{
+    --color-primary: #1E1E1E;
+    --color-secondary: #000000;
+    --color-tertiary: #000;
+    --color-quaternary: 20px;
+    --color-quinary: #000;
+    --color-senary: #fff;
+    --color-septenary: #000;
+    --color-octonary: #fff;
+    --color-nonary: #000;
+    --color-denary: #fff;
+}
+
+body {
+    background-color: var(--color-secondary);
+}
