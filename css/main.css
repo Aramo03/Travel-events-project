@@ -13,5 +13,6 @@
 @import url("pages/contact.css");
 @import url("pages/event.css");
 @import url("pages/calendar.css");
+@import url("./pages/profile.css");
 
 @import url("base/media.css");
