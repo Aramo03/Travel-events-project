@@ -1,1 +1,38 @@
 /* Footer */
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 74px;
+    background-color: #E9D6C1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 20px;
+}
+
+footer > h5{
+    cursor: pointer;
+}
+
+.footer-navigation > li a{
+    color: var(--text__color);
+    transition: all 0.5s;
+}
+
+.footer-navigation > li a:hover{
+    border-bottom: 1px solid #44291F;
+}
+
+.nothing{
+    width: 100%;
+    height: 110px;
+    background-color: var(--background);
+}
+/* footer */

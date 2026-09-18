@@ -1,1 +1,226 @@
 /* Home page only */
+
+.hero {
+    width: 100%;
+    height: 440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://i.eurosport.com/2025/03/11/image-2c33751b-72bd-4b98-9cc2-8873bbd18247-85-2560-1440.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+.hero__info>p {
+    font-size: 10px;
+    transform: translateX(-600px);
+    animation: info__animations 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes info__animations {
+    0% {
+        transform: translateX(-600px)
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero__info>h1 {
+    font-size: 52px;
+    animation: hero__animation 1s;
+}
+
+@keyframes hero__animation {
+    0% {
+        transform: translateX(-600px)
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero__info>button {
+    width: 111px;
+    height: 33px;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--text__color);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    opacity: 0;
+    transition: all 0.5s;
+    animation: button__appearance 1s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button__appearance {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero__info>button:hover {
+    background-color: rgba(68, 41, 31, 0.842);
+}
+
+.search {
+    width: 100%;
+    height: 62px;
+    background-color: var(--background);
+}
+
+.search__section {
+    width: 720px;
+    height: 52px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.568);
+}
+
+.search__inputs {
+    display: flex;
+    gap: 20px;
+}
+
+.search__inputs>input {
+    width: 180px;
+    height: 34px;
+    border-radius: 16px;
+    border: 1px solid var(--text__color);
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.search__inputs>button {
+    width: 100px;
+    height: 30px;
+    background-color: var(--text__color);
+    color: var(--background);
+    border: none;
+    border-radius: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.search__inputs>button:hover {
+    background-color: rgba(68, 41, 31, 0.842);
+}
+
+.card-section {
+    width: 100%;
+    height: 275px;
+    background-color: var(--background);
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+}
+
+.all-card {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 240px;
+    height: 181px;
+    background-color: rgb(245, 240, 239);
+    border-radius: 16px;
+    box-shadow: 2px 2px 22px 1px rgba(0, 0, 0, 0.507);
+}
+
+.munich-img {
+    width: 100%;
+    height: 118px;
+    background-image: url("https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-16x9-seo/v1601462176/cms/public/images/museum/besucherinformationen/innenraum_spieltag_choreo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 12px;
+    color: var(--text__color);
+    font-weight: bold;
+}
+
+.card-text>h3 {
+    font-size: 15px;
+}
+
+.card-button {
+    margin-right: 5px;
+}
+
+.card-button>button {
+    width: 65px;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--text__color);
+    color: var(--background);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card-button>button:hover {
+    background-color: rgba(68, 41, 31, 0.842);
+}
+
+.rome-img {
+    width: 100%;
+    height: 118px;
+    background-image: url("https://media.asroma.com/prod/images/landscape_medium_fill/b98f447d3d75-20250306romaathletic-club-1176-1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.london-img {
+    width: 100%;
+    height: 118px;
+    background-image: url("https://contentfulproxy.stadion.io/zl2jjr3puakk/1bNNnnuGqIn9P8q5nKB524/6890575c1dece588147f8a5104da98a2/GettyImages-2231535751.jpg?fm=webp&fit=fill&f=face&w=1600&h=1067");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
