@@ -1,1 +1,37 @@
 /* Header and navigation */
+/* header */
+
+header{
+    width: 100%;
+    height: 72px;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+    position: fixed;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo > h1{
+    color: var(--text__color);
+}
+
+.navigation{
+    display: flex;
+    gap: 20px;
+}
+
+.nav{
+    transition: all 1s;
+    color: var(--text__color);
+}
+
+.nav:hover{
+    border-bottom: 1px solid #44291F;
+}
+
+/* header */
