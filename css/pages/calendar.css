@@ -1,0 +1,173 @@
+.calendar__body{
+    width: 100%;
+    padding: 3% 10%;
+    background-color: #F4EADF;
+    display: flex;
+    justify-content: space-between;
+}
+.calendar__left__side{
+    width: 75%;
+    padding-inline: 15px;
+}
+.calendar__right__side{
+    width: 25%;
+    background-color: #a490735e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-radius: 20px;
+}
+.calendar__left__side__top__nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 15px;
+}
+.month__back__forward{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.back__btn,.month__back, .month-forward{
+    background-color: #E9D6C1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.month__name__year{
+    font-size: 2em;
+    font-weight: bold;
+}
+.calendar__left__side__top__nav__right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #E9D6C1;
+    /* padding: 10px 20px; */
+    border-radius: 30px;
+    border: 1px solid #3d3d3d;
+}
+.month, .week, .day{
+    padding:  10px 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all .3s ease;
+    border: 1px solid transparent;
+}
+.month:hover{
+    background-color: #F4EADF;
+    border: 1px solid #3d3d3d;
+}
+.week:hover{
+    background-color: #F4EADF;
+    border: 1px solid #3d3d3d;
+}
+.day:hover{
+    background-color: #F4EADF;
+    border: 1px solid #3d3d3d;
+}
+.filter__body{
+    width: 50%;
+}
+.filter__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter__main__item{
+    background-color: #E9D6C1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.calendar__days__blocks__body{
+    width: 100%;
+    padding: 20px;
+    background-color: #a490735e;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.week__names__body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.week__name{
+    padding: 10px;
+}
+.days__body{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, minmax(100px, 1fr));
+    gap: 10px;
+}
+.calendar__day__block{
+    border: 2px solid #E9D6C1;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.calendar__day__block:hover{
+    background-color: #00000052;
+    font-size: 1.5em;
+    padding-left: 8px;
+}
+.travel__img__block{
+    width: 100%;
+    min-height: 240px;
+    background-image: url(..assets/Untitled.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.event__title{
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+    padding-inline: 15px;
+    margin-top: 15px;
+}
+.event__date__time__body, .location__body{
+    padding-inline: 15px;
+    margin-top: 15px;
+}
+.event__info{
+    font-size: 14px;
+    color: #8888AA;
+    margin-inline: 15px;
+    padding-block: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #1E1E38;
+}
+.date__time__title, .location__title{
+    color: #4B4B70;
+}
+.btn__body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.add__plan__btn{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4B4B70;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.add__plan__btn:hover{
+    background-color: #1e1e3849;
+    color: #fff;
+}
