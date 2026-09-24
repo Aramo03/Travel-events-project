@@ -10,6 +10,7 @@ header{
     justify-content: space-between;
     padding-inline: 60px;
     position: fixed;
+    top: 0;
 }
 
 .logo{
