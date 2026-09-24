@@ -4,7 +4,6 @@
     background-color: #F4EADF;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
 }
 .calendar__left__side{
     width: 75%;
@@ -60,6 +59,10 @@
     border-radius: 30px;
     transition: all .3s ease;
     border: 1px solid transparent;
+}
+.month{
+    background-color: #F4EADF;
+    border: 1px solid #3d3d3d;
 }
 .month:hover{
     background-color: #F4EADF;
