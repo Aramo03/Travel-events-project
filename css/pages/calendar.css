@@ -4,6 +4,7 @@
     background-color: #F4EADF;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .calendar__left__side{
     width: 75%;
