@@ -1,0 +1,72 @@
+@media(max-width: 1240px){
+    .calendar__body{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .calendar__left__side{
+        width: 100%;
+        padding: 0;
+    }
+    .calendar__right__side{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .add__plan__btn{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 860px){
+    .calendar__body{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .calendar__left__side{
+        width: 100%;
+        padding: 0;
+    }
+    .calendar__right__side{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .add__plan__btn{
+        margin-top: 20px;
+    }
+    .filter__body{
+        width: 100%;
+    }
+    .days__body{
+        grid-template-rows: auto;
+    }
+}
+@media(max-width: 700px){
+    .calendar__body{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .calendar__left__side{
+        width: 100%;
+        padding: 0;
+    }
+    .calendar__right__side{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .add__plan__btn{
+        margin-top: 20px;
+    }
+    .filter__body{
+        width: 100%;
+    }
+    .back__btn, .month__back, .month-forward {
+        display: none;
+    }
+    .month__name__year{
+        font-size: 1.1em;
+    }
+    .days__body{
+        grid-template-rows: auto;
+    }
+    .month, .week, .day {
+    padding: 5px 10px;
+}
+}
