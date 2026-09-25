@@ -11,6 +11,7 @@ header{
     padding-inline: 60px;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 .logo{
